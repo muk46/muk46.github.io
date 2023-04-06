@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="UTF-8"%>
-<% request.setCharacrerEncoding("utf-8"); %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<% request.setCharacterEncoding("utf-8"); %>
 <!doctype html> <!-- formTexr1.jsp -->
 <html>
 <head><meta charset="utf-8"/>
@@ -10,8 +10,8 @@
 <section>
  <h2>JSP form</h2>
  <section>
-  <h2>아이디:<%=request.getParameter("namex")%><br/></h2>
-  <h2>패스워드:<%=request.getParameter("passx")%><br/></h2>
+  <h2>아이디:<%= request.getParameter("namex")%><br/></h2>
+  <h2>패스워드:<%= request.getParameter("passx")%><br/></h2>
  </section>
 </section>
 </body></html>
