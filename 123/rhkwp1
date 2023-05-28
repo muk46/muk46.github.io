@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .section-title {
+            border-bottom: 1px solid #333;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+
+        .experience {
+            display: flex;
+        }
+
+        .experience .date {
+            width: 120px;
+            font-weight: bold;
+        }
+
+        .experience .content {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>이름</h1>
+        <h2>직무 | 경력 수</h2>
+    </header>
+
+    <main>
+        <section>
+            <h3 class="section-title">개요</h3>
+            <ul>
+                <li>전문성과 강점</li>
+                <li>목표</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3 class="section-title">경력</h3>
+            <div class="experience">
+                <div class="date">날짜</div>
+                <div class="content">
+                    <h4>회사명</h4>
+                    <p>직급/직책</p>
+                    <ul>
+                        <li>업무 내용 1</li>
+                        <li>업무 내용 2</li>
+                        <li>업무 내용 3</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 다른 경력 항목 추가 -->
+        </section>
+
+        <section>
+            <h3 class="section-title">학력</h3>
+            <ul>
+                <li>학위/전공 - 학교명 (졸업 연도)</li>
+                <li>학위/전공 - 학교명 (졸업 연도)</li>
+                <li>학위/전공 - 학교명 (졸업 연도)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3 class="section-title">보유 기술</h3>
+            <ul>
+                <li>기술 1</li>
+                <li>기술 2</li>
+                <li>기술 3</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3 class="section-title">프로젝트</h3>
+            <div class="experience">
+                <div class="date">날짜</div>
+                <div class="content">
+                    <h4>프로젝트명</h4>
+                    <p>역할/담당 내용</p>
+                    <ul>
+                        <li>프로젝트 내용 1</li>
+                        <li>프로젝트 내용 2</li>
+                        <li>프로젝트 내용 3</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 다른 프로젝트 항목 추가 -->
+        </section>
+    </main>
+</body>
+</html>
