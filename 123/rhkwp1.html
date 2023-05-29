@@ -28,6 +28,22 @@
             margin-bottom: 20px;
         }
 
+        nav {
+            background-color: #555;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         main {
             padding: 20px;
         }
@@ -77,8 +93,16 @@
         <h2>직무 | 경력 수</h2>
     </header>
 
+    <nav>
+        <a href="#overview">개요</a>
+        <a href="#experience">경력</a>
+        <a href="#education">학력</a>
+        <a href="#skills">보유 기술</a>
+        <a href="#projects">프로젝트</a>
+    </nav>
+
     <main>
-        <section>
+        <section id="overview">
             <h3 class="section-title">개요</h3>
             <ul>
                 <li>전문성과 강점</li>
@@ -86,7 +110,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="experience">
             <h3 class="section-title">경력</h3>
             <div class="experience">
                 <div class="date">날짜</div>
@@ -103,7 +127,7 @@
             <!-- 다른 경력 항목 추가 -->
         </section>
 
-        <section>
+        <section id="education">
             <h3 class="section-title">학력</h3>
             <ul>
                 <li>학위/전공 - 학교명 (졸업 연도)</li>
@@ -112,7 +136,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="skills">
             <h3 class="section-title">보유 기술</h3>
             <ul>
                 <li>기술 1</li>
@@ -121,7 +145,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="projects">
             <h3 class="section-title">프로젝트</h3>
             <div class="experience">
                 <div class="date">날짜</div>
