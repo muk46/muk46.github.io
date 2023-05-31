@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>이력서</title>
-    <style>
+     <style>
+        /* 공통 스타일 */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -84,6 +85,42 @@
 
         .experience .content {
             flex: 1;
+        }
+
+        /* 태블릿 및 모바일 스타일 */
+        @media (max-width: 768px) {
+            header {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+
+            nav a {
+                margin: 0 5px;
+                font-size: 12px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            h3 {
+                font-size: 14px;
+            }
+
+            .experience {
+                flex-direction: column;
+            }
+
+            .experience .date {
+                width: auto;
+            }
         }
     </style>
 </head>
